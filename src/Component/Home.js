@@ -165,6 +165,11 @@ export default function Home() {
                    }
                     </>
                 )}
+                ListEmptyComponent={() => (
+                    <View style={{ alignItems: 'center', marginTop: 20 }}>
+                        <Text style={{ color: 'white', fontSize: 18 }}>No tasks</Text>
+                    </View>
+                )}
             />
         </View>
     )
